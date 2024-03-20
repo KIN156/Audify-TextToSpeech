@@ -1,0 +1,135 @@
+.container{
+  margin: 0 175px;
+  padding: 20px 0;
+  max-width: 800px; /* Adjust maximum width as needed */
+
+}
+
+.logo{
+  margin-right: 5px;
+  height: 50px;
+}
+.section-container{
+  margin-top: 40px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+
+}
+textarea{
+  width: 100%;
+  height: 300px;
+  border: 1px solid;  
+  font-size: large;
+  resize: none; /* Disable textarea resizing */
+}
+
+
+.btn-convert{
+  background-color: #8223e5;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-clr{
+  background-color: #8223e5;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.audio-container{
+  position: fixed;
+  bottom:  0;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1000px;
+}
+
+.audio-button{
+  font-size: 45px;
+  border:transparent;
+  background-color: transparent;
+}
+
+.audio-button:disabled{
+  opacity: .5;
+  cursor: not-allowed;
+}
+.audio-button:hover {
+  color: #6c1aa9; /* Darken on hover */
+}
+.icon-btn{
+  color:#8223e5;
+}
+.progress-container{
+  width:100%;
+  background-color: #ccc;
+  height: 6px;
+  margin: 10px 0 10px 1px;
+}
+
+.progress-bar{
+  background-color: #8223e5;
+  height: 100%;
+  width: 0;
+}
+
+.voice-selection {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add some margin to separate from the textarea */
+}
+
+.voice-selection p {
+  margin-right: 10px; /* Add some spacing between the text and the dropdown box */
+}
+/* CSS for styling the dropdown menu */
+.voice-selection select {
+  padding: 8px 12px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #fff; /* Background color */
+  color: #333; /* Text color */
+}
+
+.voice-selection select:focus {
+  outline: none; /* Remove outline on focus */
+  border-color: #8223e5; /* Border color on focus */
+}
+
+/* Custom arrow icon for dropdown menu */
+.voice-selection::after {
+  content: '\25BC'; /* Unicode for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* CSS for dropdown menu options */
+.voice-selection option {
+  padding: 8px 12px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  color: #333; /* Text color */
+  background-color: #fff; /* Background color */
+}
