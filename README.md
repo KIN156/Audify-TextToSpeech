@@ -3,6 +3,8 @@
 ## Scrreenshot:
 
 ![Alt text](./public/SS_audify.png)
+[Listen to Audio](https://github.com/KIN156/Audify-TextToSpeech/blob/25a7d4274765ea4b442eaa7bcfa3cb2e2a7df487/public/audio.mp3)
+
 
 # Getting Started with Create React App
 
