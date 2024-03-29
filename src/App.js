@@ -4,6 +4,8 @@ import AWS from 'aws-sdk';
 import Header from './components/header';
 import Section from './components/section';
 import AudioPlayer from './components/AudioPlayer';
+
+
 AWS.config.update({
   accessKeyId: process.env.REACT_APP_CLIENTID,
   secretAccessKey: process.env.REACT_APP_SECRETKEY,
@@ -46,6 +48,7 @@ function App() {
       <Section text={text} setText={setText} convertTextToSpeech={convertTextToSpeech} />
  
     <AudioPlayer audioFile={audioFile}/>
+
     </>
     
   );

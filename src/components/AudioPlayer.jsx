@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState} from "react";
 import {AiFillPlayCircle} from 'react-icons/ai';
-import { BsPauseCircleFill} from 'react-icons/bs';
+import { BsPauseCircleFill } from 'react-icons/bs';
 import {BiSolidDownload} from  'react-icons/bi';
 
 const AudioPlayer = ( {audioFile} ) => {
