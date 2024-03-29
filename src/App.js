@@ -9,7 +9,7 @@ import AudioPlayer from './components/AudioPlayer';
 AWS.config.update({
   accessKeyId: process.env.REACT_APP_CLIENTID,
   secretAccessKey: process.env.REACT_APP_SECRETKEY,
-  region: process.env.REACT_APP_REGION
+  region: process.env.REACT_APP_REGION,
 })
 
 const polly = new AWS.Polly()
