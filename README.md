@@ -1,5 +1,9 @@
 ## Demo: https://main.d2yciytiz0d51h.amplifyapp.com/
 
+## Scrreenshot:
+
+![Alt Text](public/Screenshot 2024-03-29 at 3.20.10 PM.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
