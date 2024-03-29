@@ -4,6 +4,9 @@
 
 ![alt text](public/Screenshot 2024-03-29 at 3.20.10 PM.png)
 
+![Alt text](./public/SS_audify.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
